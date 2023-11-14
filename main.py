@@ -12,6 +12,6 @@ driver.get(f"{base_url}/forms.html")
 driver.find_element('id','check_javascript').click()
 checke1 = driver.find_element('id','check_validate').text
 assert checke1 == "JAVASCRIPT"
-driver.find_element('id','notes').send_keys("helo test")
+driver.find_element('id','notes').send_keys("helo test2")
 checke2 = driver.find_element('id','area_notes_validate').text
-assert checke2 == "helo test"
+assert checke2 == "helo test2"
