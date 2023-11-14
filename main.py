@@ -15,4 +15,4 @@ assert checke1 == "JAVASCRIPT"
 driver.find_element('id','notes').send_keys("helo test2")
 checke2 = driver.find_element('id','area_notes_validate').text
 assert checke2 == "helo test2"
-assert checke2 == "ershad"
+assert checke2 == "asdsad"
